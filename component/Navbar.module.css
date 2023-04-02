@@ -1,0 +1,15 @@
+
+.navcontainer {
+  @apply bg-white shadow h-20 grid grid-cols-3 justify-items-center grid-flow-col  items-end pb-3;
+}
+.navoptions {
+  @apply flex gap-10 cursor-pointer;
+}
+.home {
+
+  @apply border-b-2 border-b-blue-900 text-blue-600;
+}
+
+.navbutton {
+  @apply bg-buttoncolor pt-1 pb-1 pl-2 pr-2 rounded-md text-white;
+}

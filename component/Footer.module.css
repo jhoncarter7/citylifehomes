@@ -1,0 +1,18 @@
+.footer{
+    padding: 4rem 8rem;
+    display: flex;
+    column-gap: 8rem;
+    background-color: #172554;
+   color: white;
+    justify-content: center;
+}
+.footerchild{
+    display: flex;
+    flex-direction: column;
+    row-gap: .7rem;
+    cursor: pointer;
+}
+.footerchild h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+}

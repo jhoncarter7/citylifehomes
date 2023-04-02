@@ -1,0 +1,45 @@
+
+.button {
+    @apply bg-buttoncolor pt-1 pb-1 pl-2 pr-2 rounded-md text-white w-[13rem];
+  }
+
+  .form{
+    margin: 2rem 11rem;
+    display: flex;
+    /* height: 40rem; */
+    padding-top: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 3rem 3rem;
+
+  }
+  .formheading{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+  }
+
+  .forminput{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: .6rem;
+    padding-right: 4rem;
+    font-size: small;
+  }
+
+  .forminput div input{
+    border: 1px solid #9ca3af;
+    outline: none;
+
+  }
+  .forminput div label{
+  color: #6b7280;
+
+  }
+  .image img{
+    height: 44vh;
+  }
+
+  

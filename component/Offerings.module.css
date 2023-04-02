@@ -1,0 +1,88 @@
+.offering{
+    padding: 2rem 11rem;
+    text-align: center;
+  
+
+}
+.offering p{
+    color: #64748b;
+    font-size: small;
+}
+
+.mainheading{
+    display: flex;
+    justify-content: center;
+}
+.mainheading h1{
+    font-weight: 800;
+    border-bottom: 4px solid black;
+    font-size: 1.6rem;
+   
+}
+
+.OfferingCard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+   /* margin-bottom: 3rem; */
+
+}
+.heading{
+    padding: 1rem 2rem;
+    display: flex;
+    background-color: #e2e8f0;
+    column-gap: 1rem;
+    color: #4b5563;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+.heading span{
+    padding: .1rem .6rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.cardcontent{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    row-gap: 1.4rem;
+    
+}
+.cardcontent img{
+    border-radius: 10px;
+    height: 44vh;
+}
+.cardcontent p{
+    font-size: small;
+    color: #64748b;
+}
+.cardcontent h2{
+    font-size: 1.3rem;
+}
+.buttones{
+    display: flex;
+    justify-content: space-between;
+ align-items: center;
+   
+
+}
+.button{
+    /* padding: .2rem 1.4rem; */
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    border: 1px solid rgb(22, 21, 21);
+   width: 8rem;
+   font-weight: lighter;
+   font-size: small;
+}
+
+.blogDate{
+    display: flex;
+    justify-content: space-between;
+  
+}

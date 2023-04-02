@@ -1,0 +1,91 @@
+.main {
+    @apply pt-[2rem] px-[11rem]
+}
+
+.firstbanner {
+
+    height: 22rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #172554;
+    position: relative;
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+.firstbanner p {
+
+    padding-left: 3rem;
+    /* padding-right: .rem; */
+    font-size: 1.8rem;
+    color: white;
+}
+
+.firstbanner p span {
+    color: yellow;
+    font-weight: 700;
+}
+
+.Image {
+    height: 100%;
+    position: relative;
+
+}
+
+.Image img {
+    width: fit-content;
+    position: absolute;
+    clip-path: polygon(32% 0%, 100% 0%, 100% 100%, 1% 100%);
+    height: 100%;
+
+}
+
+
+
+
+
+
+.secondbanner {
+    height: 19rem;
+    width: 100%;
+    display: grid;
+    margin-top: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    background-color: #e5e7eb;
+    margin-bottom: 5rem;
+    position: relative;
+    padding: 1rem;
+}
+
+.smallImage {
+    height: 100%;
+    position: relative;
+}
+
+.smallImage img {
+    position: absolute;
+    height: 100%;
+    width: fit-content;
+}
+.details{
+    padding-top: 1rem;
+    color: #4b5563;
+    
+}
+.details h3{
+ font-size: 1.4rem;
+ padding-bottom: 1rem;
+ color: black;
+
+}
+.details p{
+    font-size: small;
+    margin-bottom: 2rem;
+    
+}
+.button{
+    padding: .2rem 1.4rem;
+    border: 1px solid rgb(22, 21, 21);
+}
